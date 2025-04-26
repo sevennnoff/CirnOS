@@ -173,11 +173,11 @@ in
       bind =
         let SLURP_COMMAND = "$(slurp -d -c eedcf5BB -b 4f425644 -s 00000000)";
         in [
-          "Super, C, exec, code --password-store=gnome"
-          "Super, T, exec, foot --override shell=fish"
+          "Super, C, exec, code"
+          "Super, RETURN, exec, kitty"
           "Super, E, exec, nautilus --new-window"
           "Super+Alt, E, exec, thunar"
-          "Super, W, exec, firefox"
+          "Super, F, exec, firefox"
           "Control+Super, W, exec, thorium-browser --ozone-platform-hint=wayland --gtk-version=4 --ignore-gpu-blocklist --enable-features=TouchpadOverscrollHistoryNavigation"
           "Super, X, exec, gnome-text-editor --new-window"
           "Super+Shift, W, exec, wps"
